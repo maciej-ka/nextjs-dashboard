@@ -77,8 +77,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
                 <p className="mt-2 text-sm text-red-500" key={error}>
                   {error}
                 </p>
-            ))
-            }
+            ))}
           </div>
         </div>
 
